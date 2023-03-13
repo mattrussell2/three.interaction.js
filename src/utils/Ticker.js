@@ -1,4 +1,4 @@
-import './Raf';
+import './Raf.js';
 import { EventDispatcher } from 'three';
 
 /**

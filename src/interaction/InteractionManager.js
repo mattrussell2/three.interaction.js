@@ -1,10 +1,10 @@
-import '../patch/EventDispatcher';
-import '../patch/Object3D';
+import '../patch/EventDispatcher.js';
+import '../patch/Object3D.js';
 
 import { EventDispatcher, Raycaster } from 'three';
-import InteractionData from './InteractionData';
-import InteractionEvent from './InteractionEvent';
-import InteractionTrackingData from './InteractionTrackingData';
+import InteractionData from './InteractionData.js';
+import InteractionEvent from './InteractionEvent.js';
+import InteractionTrackingData from './InteractionTrackingData.js';
 
 const MOUSE_POINTER_ID = 'MOUSE';
 

@@ -1,5 +1,5 @@
-import Ticker from '../utils/Ticker';
-import InteractionManager from './InteractionManager';
+import Ticker from '../utils/Ticker.js';
+import InteractionManager from './InteractionManager.js';
 
 /**
  * The interaction manager deals with mouse, touch and pointer events. Any DisplayObject can be interactive
